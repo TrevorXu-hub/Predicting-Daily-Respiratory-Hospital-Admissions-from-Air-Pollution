@@ -1,0 +1,30 @@
+# --- data (DO NOT COMMIT) ---
+data/
+*.csv
+*.parquet
+*.jsonl
+
+# --- outputs / artifacts ---
+outputs/
+*.png
+*.pdf
+*.html
+*.joblib
+*.pkl
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+
+# --- virtual env ---
+.venv/
+venv/
+ENV/
+.env
+
+# --- OS ---
+.DS_Store
+Thumbs.db
